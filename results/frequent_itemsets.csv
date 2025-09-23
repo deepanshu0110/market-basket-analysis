@@ -1,0 +1,279 @@
+itemsets_str,support
+apple,0.108
+bagel,0.076
+banana,0.111
+beef,0.08
+bread,0.112
+butter,0.111
+carrot,0.059
+cereal,0.108
+cheese,0.125
+chicken,0.086
+chips,0.099
+coffee,0.097
+cookies,0.121
+crackers,0.064
+cream,0.08
+croissant,0.074
+fish,0.08
+flour,0.071
+frozen_pizza,0.073
+frozen_vegetables,0.072
+ham,0.026
+honey,0.12
+ice_cream,0.104
+jam,0.096
+juice,0.07
+ketchup,0.086
+lettuce,0.083
+mayo,0.079
+milk,0.163
+muffin,0.072
+mustard,0.081
+nuts,0.075
+oil,0.071
+orange,0.07
+pasta,0.103
+pork,0.086
+rice,0.1
+soda,0.093
+sugar,0.083
+tea,0.077
+tomato,0.097
+turkey,0.066
+vegetables,0.023
+water,0.08
+yogurt,0.096
+"bagel, apple",0.01
+"banana, apple",0.011
+"cheese, apple",0.012
+"honey, apple",0.032
+"ketchup, apple",0.017
+"milk, apple",0.011
+"oil, apple",0.01
+"apple, pasta",0.01
+"apple, rice",0.011
+"tea, apple",0.014
+"yogurt, apple",0.03
+"bagel, cheese",0.015
+"bagel, cream",0.01
+"bagel, honey",0.011
+"milk, bagel",0.011
+"bagel, mustard",0.011
+"bagel, nuts",0.013
+"banana, butter",0.011
+"banana, cereal",0.033
+"banana, cheese",0.014
+"banana, coffee",0.01
+"banana, crackers",0.01
+"banana, fish",0.01
+"banana, juice",0.012
+"banana, lettuce",0.01
+"milk, banana",0.041
+"banana, muffin",0.01
+"banana, orange",0.011
+"banana, pork",0.011
+"banana, rice",0.016
+"banana, yogurt",0.01
+"beef, cereal",0.01
+"beef, cream",0.011
+"beef, honey",0.012
+"beef, ice_cream",0.011
+"beef, jam",0.012
+"beef, ketchup",0.011
+"beef, mustard",0.01
+"beef, nuts",0.013
+"bread, butter",0.034
+"bread, cheese",0.026
+"chips, bread",0.012
+"bread, cookies",0.011
+"bread, frozen_pizza",0.011
+"ham, bread",0.022
+"bread, honey",0.011
+"jam, bread",0.034
+"bread, lettuce",0.011
+"bread, muffin",0.011
+"bread, nuts",0.014
+"bread, rice",0.011
+"bread, soda",0.014
+"water, bread",0.011
+"carrot, butter",0.011
+"cereal, butter",0.013
+"chips, butter",0.013
+"butter, cookies",0.011
+"crackers, butter",0.01
+"butter, cream",0.011
+"butter, fish",0.01
+"butter, flour",0.014
+"butter, frozen_pizza",0.013
+"frozen_vegetables, butter",0.014
+"honey, butter",0.016
+"jam, butter",0.038
+"lettuce, butter",0.013
+"mayo, butter",0.011
+"milk, butter",0.011
+"carrot, cheese",0.011
+"carrot, muffin",0.01
+"carrot, oil",0.011
+"carrot, pork",0.01
+"cereal, cheese",0.012
+"chips, cereal",0.01
+"cereal, croissant",0.012
+"cereal, frozen_pizza",0.01
+"cereal, frozen_vegetables",0.012
+"cereal, honey",0.013
+"cereal, ice_cream",0.01
+"mayo, cereal",0.012
+"milk, cereal",0.033
+"cereal, mustard",0.012
+"cereal, pork",0.018
+"cereal, rice",0.011
+"cereal, tomato",0.01
+"turkey, cereal",0.011
+"cheese, cookies",0.011
+"crackers, cheese",0.013
+"cheese, croissant",0.011
+"cheese, fish",0.016
+"cheese, flour",0.011
+"cheese, frozen_pizza",0.01
+"ham, cheese",0.022
+"ice_cream, cheese",0.015
+"jam, cheese",0.013
+"juice, cheese",0.011
+"cheese, ketchup",0.012
+"milk, cheese",0.014
+"cheese, muffin",0.01
+"cheese, nuts",0.01
+"cheese, pasta",0.035
+"pork, cheese",0.011
+"cheese, soda",0.01
+"cheese, tomato",0.035
+"yogurt, cheese",0.011
+"chicken, coffee",0.012
+"chicken, croissant",0.01
+"ice_cream, chicken",0.011
+"milk, chicken",0.01
+"chicken, rice",0.028
+"soda, chicken",0.01
+"chicken, vegetables",0.02
+"chips, cookies",0.033
+"chips, fish",0.01
+"jam, chips",0.01
+"chips, mayo",0.011
+"chips, pasta",0.012
+"chips, soda",0.03
+"turkey, chips",0.011
+"honey, coffee",0.015
+"milk, coffee",0.035
+"coffee, muffin",0.013
+"mustard, coffee",0.012
+"coffee, rice",0.011
+"coffee, sugar",0.032
+"cream, cookies",0.014
+"ice_cream, cookies",0.036
+"jam, cookies",0.01
+"milk, cookies",0.04
+"soda, cookies",0.036
+"tea, cookies",0.011
+"yogurt, cookies",0.01
+"crackers, ice_cream",0.01
+"crackers, pasta",0.01
+"pork, crackers",0.01
+"frozen_pizza, cream",0.012
+"honey, cream",0.01
+"ice_cream, cream",0.011
+"jam, cream",0.01
+"lettuce, cream",0.01
+"milk, cream",0.012
+"cream, rice",0.012
+"ketchup, croissant",0.011
+"oil, croissant",0.011
+"croissant, pasta",0.012
+"croissant, rice",0.013
+"frozen_pizza, fish",0.01
+"frozen_vegetables, fish",0.012
+"honey, fish",0.011
+"ketchup, fish",0.01
+"nuts, fish",0.01
+"fish, pasta",0.01
+"water, fish",0.01
+"jam, flour",0.01
+"mayo, flour",0.012
+"nuts, flour",0.011
+"oil, flour",0.011
+"honey, frozen_pizza",0.015
+"frozen_pizza, pasta",0.01
+"soda, frozen_pizza",0.011
+"mayo, frozen_vegetables",0.011
+"milk, frozen_vegetables",0.011
+"frozen_vegetables, mustard",0.013
+"pork, frozen_vegetables",0.011
+"frozen_vegetables, sugar",0.01
+"jam, honey",0.012
+"honey, ketchup",0.015
+"honey, lettuce",0.014
+"milk, honey",0.014
+"honey, mustard",0.01
+"orange, honey",0.013
+"honey, soda",0.012
+"tea, honey",0.013
+"honey, tomato",0.013
+"yogurt, honey",0.035
+"milk, ice_cream",0.036
+"ice_cream, pasta",0.01
+"ice_cream, tea",0.011
+"ice_cream, tomato",0.012
+"yogurt, ice_cream",0.01
+"jam, lettuce",0.013
+"jam, mustard",0.01
+"jam, tomato",0.01
+"milk, juice",0.011
+"yogurt, juice",0.01
+"ketchup, lettuce",0.013
+"ketchup, pasta",0.012
+"ketchup, rice",0.011
+"water, ketchup",0.01
+"yogurt, ketchup",0.01
+"mayo, lettuce",0.011
+"lettuce, tomato",0.013
+"mayo, oil",0.01
+"mayo, pasta",0.012
+"mayo, tea",0.01
+"water, mayo",0.012
+"milk, muffin",0.012
+"milk, mustard",0.017
+"milk, nuts",0.014
+"milk, soda",0.012
+"milk, sugar",0.031
+"milk, tea",0.013
+"water, milk",0.013
+"milk, yogurt",0.01
+"sugar, muffin",0.011
+"nuts, mustard",0.01
+"pork, mustard",0.012
+"tea, mustard",0.011
+"yogurt, mustard",0.014
+"pork, nuts",0.01
+"nuts, rice",0.011
+"oil, pork",0.018
+"oil, tea",0.01
+"water, oil",0.01
+"orange, pasta",0.01
+"tomato, pasta",0.033
+"water, pasta",0.011
+"pork, tea",0.01
+"tea, rice",0.011
+"tomato, rice",0.01
+"vegetables, rice",0.019
+"water, rice",0.013
+"turkey, soda",0.01
+"water, tea",0.01
+"yogurt, honey, apple",0.023
+"milk, banana, cereal",0.026
+"jam, bread, butter",0.028
+"ham, bread, cheese",0.019
+"cheese, tomato, pasta",0.028
+"chicken, vegetables, rice",0.018
+"chips, soda, cookies",0.025
+"milk, coffee, sugar",0.024
+"milk, ice_cream, cookies",0.029

@@ -1,0 +1,51 @@
+customer_id,recency,frequency,monetary,avg_basket_size,persona,cluster,segment
+CUST_0040,141,6,377.21999999999997,7.0,family_shopper,2,Potential Loyalists
+CUST_0002,3,8,292.59,3.75,convenience_shopper,1,Loyal Customers
+CUST_0012,6,15,705.59,5.4,health_conscious,0,Champions
+CUST_0033,56,6,294.49,6.333333333333333,health_conscious,2,Potential Loyalists
+CUST_0018,57,7,258.75,4.428571428571429,budget_conscious,2,Potential Loyalists
+CUST_0003,43,9,373.71999999999997,5.444444444444445,health_conscious,2,Potential Loyalists
+CUST_0026,2,11,284.59000000000003,3.1818181818181817,convenience_shopper,1,Loyal Customers
+CUST_0020,110,9,440.62,5.555555555555555,budget_conscious,2,Potential Loyalists
+CUST_0046,9,11,517.71,4.7272727272727275,health_conscious,1,Loyal Customers
+CUST_0038,14,9,275.27000000000004,3.4444444444444446,convenience_shopper,1,Loyal Customers
+CUST_0031,104,5,265.78999999999996,5.2,health_conscious,2,Potential Loyalists
+CUST_0045,8,9,602.66,7.444444444444445,family_shopper,3,At Risk
+CUST_0025,7,13,713.3,6.230769230769231,family_shopper,0,Champions
+CUST_0048,28,9,511.27,6.444444444444445,family_shopper,3,At Risk
+CUST_0034,25,13,462.8299999999999,4.230769230769231,budget_conscious,1,Loyal Customers
+CUST_0021,64,8,231.76,3.125,convenience_shopper,2,Potential Loyalists
+CUST_0014,3,15,614.1600000000001,4.266666666666667,budget_conscious,0,Champions
+CUST_0019,2,10,508.57000000000005,5.6,health_conscious,3,At Risk
+CUST_0036,7,11,691.24,7.363636363636363,family_shopper,3,At Risk
+CUST_0011,3,11,307.44,3.090909090909091,convenience_shopper,1,Loyal Customers
+CUST_0030,15,6,306.13,6.5,family_shopper,2,Potential Loyalists
+CUST_0023,99,7,463.87999999999994,6.714285714285714,family_shopper,2,Potential Loyalists
+CUST_0043,0,15,855.4599999999999,6.533333333333333,family_shopper,0,Champions
+CUST_0006,12,10,220.23,2.6,convenience_shopper,1,Loyal Customers
+CUST_0017,68,14,653.8499999999999,5.428571428571429,health_conscious,0,Champions
+CUST_0037,35,12,521.92,5.166666666666667,health_conscious,3,At Risk
+CUST_0041,87,11,648.16,7.181818181818182,family_shopper,3,At Risk
+CUST_0029,3,13,458.2199999999999,4.3076923076923075,convenience_shopper,1,Loyal Customers
+CUST_0032,4,11,409.71000000000004,4.545454545454546,budget_conscious,1,Loyal Customers
+CUST_0049,6,12,358.19,3.75,convenience_shopper,1,Loyal Customers
+CUST_0009,31,11,358.67,3.5454545454545454,convenience_shopper,1,Loyal Customers
+CUST_0001,8,14,378.04999999999995,3.2142857142857144,convenience_shopper,1,Loyal Customers
+CUST_0008,11,8,542.29,7.0,family_shopper,3,At Risk
+CUST_0028,30,8,373.5,5.125,health_conscious,2,Potential Loyalists
+CUST_0005,53,9,382.22,5.111111111111111,health_conscious,2,Potential Loyalists
+CUST_0010,5,11,454.27000000000004,4.7272727272727275,budget_conscious,1,Loyal Customers
+CUST_0004,13,8,259.79,3.75,budget_conscious,1,Loyal Customers
+CUST_0022,11,11,258.71000000000004,3.0,convenience_shopper,1,Loyal Customers
+CUST_0047,80,8,445.74,6.75,family_shopper,2,Potential Loyalists
+CUST_0044,33,6,291.64,4.666666666666667,health_conscious,2,Potential Loyalists
+CUST_0039,7,16,761.72,5.25,health_conscious,0,Champions
+CUST_0007,26,9,615.24,7.444444444444445,family_shopper,3,At Risk
+CUST_0016,29,11,535.96,5.909090909090909,budget_conscious,3,At Risk
+CUST_0015,36,7,294.73,4.571428571428571,budget_conscious,2,Potential Loyalists
+CUST_0000,80,6,272.78,5.166666666666667,health_conscious,2,Potential Loyalists
+CUST_0013,40,8,460.58,6.375,family_shopper,3,At Risk
+CUST_0035,61,9,523.54,6.555555555555555,family_shopper,3,At Risk
+CUST_0024,7,13,625.1800000000001,5.076923076923077,budget_conscious,0,Champions
+CUST_0042,17,11,544.68,5.454545454545454,health_conscious,3,At Risk
+CUST_0027,6,10,300.7,3.6,convenience_shopper,1,Loyal Customers

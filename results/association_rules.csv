@@ -1,0 +1,33 @@
+rule,support,confidence,lift
+butter → bread,0.4,0.8571,1.6071
+bread → butter,0.4,0.75,1.6071
+jam → bread,0.2667,0.8,1.5
+bread → jam,0.2667,0.5,1.5
+butter → jam,0.2667,0.5714,1.7143
+jam → butter,0.2667,0.8,1.7143
+eggs → cheese,0.2667,0.5,1.0714
+cheese → eggs,0.2667,0.5714,1.0714
+milk → cheese,0.4,0.6667,1.4286
+cheese → milk,0.4,0.8571,1.4286
+yogurt → cheese,0.2667,0.8,1.7143
+cheese → yogurt,0.2667,0.5714,1.7143
+eggs → yogurt,0.2,0.375,1.125
+yogurt → eggs,0.2,0.6,1.125
+milk → yogurt,0.2,0.3333,1.0
+yogurt → milk,0.2,0.6,1.0
+"butter, jam → bread",0.2667,1.0,1.875
+"butter, bread → jam",0.2667,0.6667,2.0
+"jam, bread → butter",0.2667,1.0,2.1429
+"butter → jam, bread",0.2667,0.5714,2.1429
+"jam → butter, bread",0.2667,0.8,2.0
+"bread → butter, jam",0.2667,0.5,1.875
+"eggs, milk → cheese",0.2,0.75,1.6071
+"eggs, cheese → milk",0.2,0.75,1.25
+"milk → eggs, cheese",0.2,0.3333,1.25
+"cheese → eggs, milk",0.2,0.4286,1.6071
+"milk, yogurt → cheese",0.2,1.0,2.1429
+"cheese, yogurt → milk",0.2,0.75,1.25
+"milk, cheese → yogurt",0.2,0.5,1.5
+"yogurt → milk, cheese",0.2,0.6,1.5
+"milk → cheese, yogurt",0.2,0.3333,1.25
+"cheese → milk, yogurt",0.2,0.4286,2.1429
