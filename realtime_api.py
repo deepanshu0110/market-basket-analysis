@@ -17,8 +17,12 @@ import asyncio
 from collections import defaultdict, Counter
 import logging
 from pathlib import Path
-import redis
-import pickle
+# redis is optional — if not installed, falls back to in-memory caching
+try:
+    import redis as redis_lib
+    REDIS_AVAILABLE_LIB = True
+except ImportError:
+    REDIS_AVAILABLE_LIB = False
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -73,10 +77,14 @@ class RealTimeRecommendationEngine:
         
         # Try to connect to Redis for caching (optional)
         try:
-            self.redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
-            self.redis_available = True
-            logger.info("✅ Redis connected for caching")
-        except:
+            if REDIS_AVAILABLE_LIB:
+                self.redis_client = redis_lib.Redis(host='localhost', port=6379, decode_responses=True)
+                self.redis_client.ping()  # test connection
+                self.redis_available = True
+                logger.info("✅ Redis connected for caching")
+            else:
+                raise ImportError("redis not installed")
+        except Exception:
             self.redis_client = None
             self.redis_available = False
             logger.info("⚠️  Redis not available, using in-memory caching")
@@ -288,7 +296,7 @@ class RealTimeRecommendationEngine:
             if self.redis_client:
                 cached_data = self.redis_client.get(key)
                 if cached_data:
-                    return RecommendationResponse.parse_raw(cached_data)
+                    return RecommendationResponse.model_validate_json(cached_data)
         except Exception as e:
             logger.warning(f"Cache get error: {e}")
         return None
@@ -362,7 +370,7 @@ async def root():
         "version": "1.0.0"
     }
 
-@app.post("/recommendations", response_model=RecommendationResponse)
+@app.post("/recommend", response_model=RecommendationResponse)
 async def get_recommendations(request: RecommendationRequest):
     """Get product recommendations for a shopping cart"""
     try:
