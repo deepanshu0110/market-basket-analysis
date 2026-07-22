@@ -1,6 +1,5 @@
-# Market Basket Analysis
+# Market Basket Analysis — Real-Time Recommendations
 [![CI](https://github.com/deepanshu0110/market-basket-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/deepanshu0110/market-basket-analysis/actions)
- — Real-Time Recommendations
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?style=flat-square&logo=fastapi)
