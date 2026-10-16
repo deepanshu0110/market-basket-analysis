@@ -42,6 +42,17 @@ uvicorn realtime_api:app --reload --port 8000
 
 ---
 
+## Tests
+
+```bash
+pip install pytest
+pytest tests/ -v
+```
+
+The tests mines rules from the sample data and calls `/recommend` with a cart. GitHub Actions runs them on every push.
+
+---
+
 ## Tech Stack
 
 Python · Pandas · MLxtend · FastAPI · Plotly · NetworkX
